@@ -1,5 +1,10 @@
-# CAT Bond Pricing via Neual Networks and Analysis
+# Code for CAT Bond Pricing via Neual Networks and Analysis
+## Prabhav Kumar, Julian Sester, Huansang Xu
 This repository contains Jupyter Notebooks for modeling, pricing, and analyzing catastrophe (CAT) bonds using different loss distributions, including gamma and lognormal. It includes implementations of Monte Carlo simulations with and without Importance Sampling, Partial Integro-Differential Equations (PIDE), and Neural Network approximations.
+## Abstract
+In this paper, we propose an alternative valuation approach for CAT bonds where a pricing formula is learned by deep neural networks. Using these trained deep neural networks then allows to price CAT bonds in dependence of nputs that reflect the current market situation and the contract specifics. This has two main advantages, first, due to its expressiveness, upon being trained the neural networks allow the almost instant and accurate evaluation of the price, and second because of its fast execution the trained neural network can be easily analyzed to study for example its sensitivities w.r.t. price changes.
+### Keywords: 
+CAT-bonds, deep learning, importance sampling, sensitivities
 ## Repository Structure
 | File                                        | Description                                                              |
 | ------------------------------------------- | ------------------------------------------------------------------------ |
