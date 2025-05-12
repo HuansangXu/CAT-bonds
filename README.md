@@ -1,1 +1,18 @@
-# CAT_bonds
+# CAT Bond Pricing via Neual Networks and Analysis
+This repository contains Jupyter Notebooks for modeling, pricing, and analyzing catastrophe (CAT) bonds using different loss distributions, including gamma and lognormal. It includes implementations of Monte Carlo simulations with and without Importance Sampling, Partial Integro-Differential Equations (PIDE), and Neural Network approximations.
+## Repository Structure
+| File                                        | Description                                                              |
+| ------------------------------------------- | ------------------------------------------------------------------------ |
+| `CAT_MC_Distributions.ipynb`                | Monte Carlo simulation with and without Importance sampling for CAT bond losses using different distributions, analysis of IS parameters selection |
+| `CAT_price_gamma.ipynb`                     | CAT bond pricing via MC simulation for Gamma distributed loss                       |
+| `CAT_price_lognormal.ipynb`                 | CAT bond pricing via MC simulation for Lognormally distributed loss                   |
+| `NN_gamma.ipynb`                            | Neural network training for CAT bond pricing with gamma losses, including optimal configuration and training results      |
+| `NN_lognormal.ipynb`                        | Neural network training for CAT bond pricing with lognormal losses, including optimal configuration and training results   |
+| `Computational_efficiency_gamma.ipynb`      | Efficiency tests for gamma-based simulation methods                      |
+| `Computational_efficiency_lognormal.ipynb`  | Efficiency tests for lognormal-based simulation methods                  |
+| `Computational_efficiency_PIDE_gamma.ipynb` | Computational efficiency analysis of PIDE method with gamma losses       |
+| `Computational_efficiency_PIDE_log.ipynb`   | Computational efficiency analysis of PIDE method with lognormal losses   |
+| `Sensitivity_analysis_gamma.ipynb`          | Sensitivity analysis of CAT bond pricing under gamma distribution        |
+| `Sensitivity_analysis_log.ipynb`            | Sensitivity analysis of CAT bond pricing under lognormal distribution    |
+## Purpose
+This repository is part of a study exploring different numerical and machine learning approaches to CAT bond pricing and analysis, especially under non-Gaussian loss distributions. It includes computational comparisons and sensitivity tests.
