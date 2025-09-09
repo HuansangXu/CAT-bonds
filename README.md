@@ -8,7 +8,8 @@ CAT-bonds, deep learning, importance sampling, sensitivities
 ## Repository Structure
 | File                                        | Description                                                              |
 | ------------------------------------------- | ------------------------------------------------------------------------ |
-| `CAT_MC_Distributions.ipynb`                | Monte Carlo simulation with and without Importance sampling for CAT bond losses using different distributions, analysis of IS parameters selection |
+| `CAT_MC_IS_Gamma.ipynb`                     | Monte Carlo simulation with and without Importance sampling for CAT bond losses using Gamma distributions, analysis of IS parameters selection |
+| `CAT_MC_IS_Lognormal.ipynb`                 | Monte Carlo simulation with and without Importance sampling for CAT bond losses using Lognormal distributions, analysis of IS parameters selection |
 | `CAT_price_gamma.ipynb`                     | CAT bond pricing via MC simulation for Gamma distributed loss                       |
 | `CAT_price_lognormal.ipynb`                 | CAT bond pricing via MC simulation for Lognormally distributed loss                   |
 | `NN_gamma.ipynb`                            | Neural network training for CAT bond pricing with gamma losses, including optimal configuration and training results      |
