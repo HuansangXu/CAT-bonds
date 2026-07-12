@@ -20,7 +20,7 @@ CAT-bonds, deep learning, importance sampling, sensitivities
 | `Computational_efficiency_PIDE_log.ipynb`   | Computational efficiency analysis of PIDE method with lognormal losses   |
 | `Sensitivity_analysis_gamma.ipynb`          | Sensitivity analysis of CAT bond pricing under gamma distribution        |
 | `Sensitivity_analysis_log.ipynb`            | Sensitivity analysis of CAT bond pricing under lognormal distribution    |
-| Additional Numerical Study                  | Include expanded out-of-sample accuracy diagnostics, MC-IS benchmark protocol and offline computational cost, economic monotonicity diagnostics and stability to architecture selection       |
+| `Additional Numerical Study`                | Include expanded out-of-sample accuracy diagnostics, MC-IS benchmark protocol and offline computational cost, economic monotonicity diagnostics and stability to architecture selection       |
 
 ## Purpose
 This repository is part of a study exploring different numerical and machine learning approaches to CAT bond pricing and analysis, especially under non-Gaussian loss distributions. It includes computational comparisons and sensitivity tests.
